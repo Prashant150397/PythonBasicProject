@@ -11,7 +11,7 @@ def step_impl(context):
     context.driver.implicitly_wait(wait)
     context.driver.find_element(By.XPATH,"//button[contains(.,'Bank Manager Login')]").click()
     context.driver.implicitly_wait(wait)
-    #time.sleep(4)
+
 
 
 @when('i click on Add customers tab')
